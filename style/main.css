@@ -1,0 +1,57 @@
+/* 
+    Created on : 4 juin 2018, 11:47:40
+    Author     : Daniel ROUAIX
+*/
+
+.l1,
+.l2,
+.l3,
+.l4,
+.l5,
+.c1,
+.c2,
+.c3,
+.c4,
+.c5 {
+    content: '';
+}
+
+.rond,
+.carre,
+.losange {
+    position: relative;
+    display: inline-block;
+    content: ' ';
+    width: 80px;
+    height: 80px;
+
+    border: 1px solid rgba(0, 0, 0, 1);
+    background-color: transparent;
+
+    margin: 20px;
+}
+
+.rond {
+    border-radius: 50%;
+}
+
+.carre {}
+
+.losange {
+    transform: rotate(-45deg);
+}
+
+.fond{
+    background-color: #ffb442;
+}
+
+.button {
+    background-color: #555555;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
