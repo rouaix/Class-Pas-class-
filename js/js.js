@@ -48,14 +48,14 @@ $(document).ready(function(){
         }            
              
         for (i = 0; i< 6; i++) {       
-            if ($('.carre.c' + i).hasClass("fond")){
+            if ($('.carre.c' + i).hasClass("fond")&& i!= 3){
                 $(".rond.c" + i).removeClass("fond");               
                 $(".rond.c" + i).addClass("fond"); 
                 
             }
         }
         for (i = 0; i< 6; i++) {       
-            if (!$('.carre.c' + i).hasClass("fond")){
+            if (!$('.carre.c' + i).hasClass("fond")&& i!= 3){
                 $(".rond.c" + i).removeClass("fond");                             
             }
         } 
